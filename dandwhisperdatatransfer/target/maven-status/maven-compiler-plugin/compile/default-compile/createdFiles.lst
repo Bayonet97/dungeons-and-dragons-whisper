@@ -1,0 +1,16 @@
+jdbcproperties\JDBCPropertiesGetter.class
+dtos\ChatDto.class
+authentication\PasswordValidator.class
+dtos\AccountDto.class
+dal\DataAccess.class
+authentication\PasswordHasher.class
+dal\CharacterDataAccess.class
+rest\DanDWhisperRESTService.class
+dtos\LoginDto.class
+jdbcproperties\JDBCPropertiesGenerator.class
+module-info.class
+dal\AccountDataAccess.class
+rest\RestResponseHelper.class
+rest\DanDWhisperRestServer.class
+dtos\CharacterDto.class
+dtos\CharacterPermissionsDto.class

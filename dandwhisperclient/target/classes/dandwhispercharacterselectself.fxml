@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="523.0" prefWidth="403.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.CharacterSelectSelfController">
+   <Pane layoutX="9.0" layoutY="10.0" prefHeight="504.0" prefWidth="385.0">
+      <ListView fx:id="characterSelectSelfListView" layoutY="36.0" prefHeight="427.0" prefWidth="385.0">
+         <items>
+            <FXCollections fx:id="observableListSelectableCharactersSelf" fx:factory="observableArrayList" />
+         </items>
+      </ListView>
+
+      <Button fx:id="selectCharacterSelfButton" layoutX="87.0" layoutY="472.0" mnemonicParsing="false" onAction="#selectCharacterSelfButtonClicked" prefHeight="33.0" prefWidth="212.0" text="Select Character" />
+      <Label layoutX="99.0" layoutY="4.0" text="Select character to chat as">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </Pane>
+   <Button fx:id="backButton" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" onAction="#backButtonClicked" text="Back" />
+</AnchorPane>

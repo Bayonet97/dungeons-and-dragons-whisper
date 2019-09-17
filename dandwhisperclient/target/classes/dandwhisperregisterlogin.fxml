@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.RegisterLoginController">
+   <Pane fx:id="loginPane" layoutX="83.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0">
+      <Label layoutX="3.0" layoutY="2.0" text="Username:" textFill="#d0d0d0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="3.0" layoutY="100.0" text="Password:" />
+      <Button fx:id="loginButton" layoutX="3.0" layoutY="174.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="25.0" prefWidth="90.0" text="Login" />
+      <Button fx:id="noAccountButton" layoutX="110.0" layoutY="174.0" mnemonicParsing="false" onAction="#noAccountButtonClicked" prefHeight="25.0" prefWidth="90.0" text="Register" />
+      <TextField fx:id="usernameTextField" layoutX="2.0" layoutY="27.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="passwordTextField" layoutX="2.0" layoutY="117.0" prefHeight="25.0" prefWidth="200.0" />
+   </Pane>
+   <Pane fx:id="registerPane" disable="true" layoutX="83.0" layoutY="110.0" prefHeight="200.0" prefWidth="200.0" visible="false">
+      <Label layoutX="3.0" layoutY="2.0" text="Username:" textFill="#d0d0d0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="3.0" layoutY="100.0" text="Password:" />
+      <Button fx:id="backToLoginButton" layoutX="110.0" layoutY="174.0" mnemonicParsing="false" onAction="#backToLoginButtonClicked" prefHeight="25.0" prefWidth="90.0" text="Back To Login" />
+      <TextField fx:id="registerUsernameTextField" layoutX="2.0" layoutY="27.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="registerPasswordTextField" layoutX="2.0" layoutY="117.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button fx:id="registerButton" layoutX="3.0" layoutY="174.0" mnemonicParsing="false" onAction="#registerButtonClicked" prefHeight="25.0" prefWidth="90.0" text="Register" />
+   </Pane>
+</AnchorPane>

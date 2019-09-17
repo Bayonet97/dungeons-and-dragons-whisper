@@ -1,0 +1,6 @@
+servertests\DiceRollerTests.class
+integrationtests\AccountTests.class
+servertests\ChatTests.class
+servertests\GameMasterTests.class
+integrationtests\IntegrationTests.class
+servertests\CharacterSelectTests.class

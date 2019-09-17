@@ -1,0 +1,16 @@
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\dtos\LoginDto.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\rest\RestResponseHelper.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\authentication\PasswordValidator.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\jdbcproperties\JDBCPropertiesGetter.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\authentication\PasswordHasher.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\dal\CharacterDataAccess.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\dtos\CharacterPermissionsDto.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\dal\DataAccess.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\dal\AccountDataAccess.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\dtos\CharacterDto.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\jdbcproperties\JDBCPropertiesGenerator.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\dtos\ChatDto.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\module-info.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\rest\DanDWhisperRESTService.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\dtos\AccountDto.java
+D:\Git\dungeons-and-dragons-whisper\dandwhisperdatatransfer\src\main\java\rest\DanDWhisperRestServer.java

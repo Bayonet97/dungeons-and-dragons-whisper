@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>dandwhisper</artifactId>
+        <groupId>com.fhict.dandwhisper</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>dandwhisperclient</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <jre.level>11</jre.level>
+        <jdk.level>11</jdk.level>
+        <jetty-server.version>9.4.14.v20181114</jetty-server.version>
+    </properties>
+    <build>
+        <plugins>
+            <!-- Compiler plug-in -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                    <source>${jdk.level}</source>
+                    <target>${jdk.level}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>11.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>11.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fhict.dandwhisper</groupId>
+            <artifactId>dandwhispercommon</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>2.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty.websocket</groupId>
+            <artifactId>javax-websocket-client-impl</artifactId>
+            <version>9.4.15.v20190215</version>
+        </dependency>
+
+    </dependencies>
+</project>

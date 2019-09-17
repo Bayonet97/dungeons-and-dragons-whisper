@@ -1,0 +1,6 @@
+projectKey=com.fhict.dandwhisper:dandwhisper
+serverUrl=http://localhost:9000
+serverVersion=7.7.0.23042
+dashboardUrl=http://localhost:9000/dashboard?id=com.fhict.dandwhisper%3Adandwhisper
+ceTaskId=AWtLJEie0bpQggSNhNXl
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWtLJEie0bpQggSNhNXl
